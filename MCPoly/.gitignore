@@ -1,0 +1,33 @@
+dist
+build
+MCPoly.egg-info
+MCPoly
+MCPoly/lmpset
+MCPoly/moldraw
+MCPoly/orcaset
+MCPoly/sscurve
+MCPoly/status
+MCPoly/version
+MCPoly/view3d
+MCPoly/vis
+tests
+
+**/__pycache__/
+
+**/.pyc
+**/.cache
+.mypy_cache
+*.ipynb_checkpoints
+**/.vscode
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Some folders get created by tests.
+**/tests_output
+docs/build
+tests/failures.txt
